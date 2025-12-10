@@ -1,0 +1,126 @@
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    position: absolute;
+    left: 40px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.menu li {
+    cursor: pointer;
+}
+ul li a {
+    color: black;      /* đổi sang màu bạn muốn */
+    text-decoration: none; /* bỏ gạch chân nếu muốn */
+}
+ul li a:hover {
+    color: red;
+}
+
+.menu li:hover {
+    color: #007bff;
+}
+
+body {
+    padding-top: 70px;
+}
+
+/* --- */
+
+/* PROFILE */
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 150px;
+    margin-top: 50px;
+}
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+}
+
+.info p {
+    font-size: 150px;
+    margin: 5px 0;
+}
+
+/* --- */
+
+/* DETAIL — Khung Lớn (Đã sửa để tạo thành khối hình chữ nhật ôm nội dung) */
+.detail {
+    width: 800px; /* Chiều rộng cố định */
+    height: auto; /* 💡 ĐIỀU CHỈNH: Chiều cao tự động ôm nội dung, tạo hình chữ nhật */
+    max-width: 95%; 
+    padding: 30px;
+    margin: 60px auto 20px auto; /* Margin dưới là 20px để gần ảnh */
+    border: 0px solid #ddd; /* Thêm border để thấy rõ khung */
+    border-radius: 18px;
+    text-align: justify; /* Căn đều chữ */
+    font-size: 18px; /* Cỡ chữ hợp lý */
+    background-color: #f9f9f9; /* Màu nền nhạt */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+.sothich {
+    width: 800px; /* Chiều rộng cố định */
+    height: auto; /* 💡 ĐIỀU CHỈNH: Chiều cao tự động ôm nội dung, tạo hình chữ nhật */
+    max-width: 95%; 
+    padding: 30px;
+    margin: 60px auto 20px auto; /* Margin dưới là 20px để gần ảnh */
+    border: 2px solid #dd1111; /* Thêm border để thấy rõ khung */
+    border-radius: 18px;
+    text-align: justify; /* Căn đều chữ */
+    font-size: 18px; /* Cỡ chữ hợp lý */
+    background-color: #f9f9f9; /* Màu nền nhạt */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+/* --- */
+
+/* MAIN IMG — Rộng đúng bằng .detail và nằm ngay dưới */
+.mainimg {
+    width: 800px; /* Bằng chiều rộng của .detail */
+    max-width: 95%;
+    margin: 20px auto 40px auto; /* Margin trên là 20px để tạo khoảng cách với khối chữ */
+    display: flex;
+    justify-content: center;
+}
+
+/* Ảnh tự căn giữa và không méo */
+.mainimg img {
+    width: 100%; 
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    display: block;
+}
