@@ -1,4 +1,3 @@
-/* NAVBAR */
 .navbar {
     position: fixed;
     top: 0;
@@ -37,8 +36,8 @@
     cursor: pointer;
 }
 ul li a {
-    color: black;      /* đổi sang màu bạn muốn */
-    text-decoration: none; /* bỏ gạch chân nếu muốn */
+    color: black;      
+    text-decoration: none; 
 }
 ul li a:hover {
     color: red;
@@ -52,14 +51,11 @@ body {
     padding-top: 70px;
 }
 
-/* --- */
-
-/* PROFILE */
 .profile {
     display: flex;
     align-items: center;
     justify-content: center; 
-    gap: 150px;
+    gap: 100px;
     margin-top: 50px;
 }
 
@@ -76,47 +72,45 @@ body {
     margin: 5px 0;
 }
 
-/* --- */
 
-/* DETAIL — Khung Lớn (Đã sửa để tạo thành khối hình chữ nhật ôm nội dung) */
 .detail {
-    width: 800px; /* Chiều rộng cố định */
-    height: auto; /* 💡 ĐIỀU CHỈNH: Chiều cao tự động ôm nội dung, tạo hình chữ nhật */
+    width: 800px; 
+    height: auto; 
     max-width: 95%; 
     padding: 30px;
-    margin: 60px auto 20px auto; /* Margin dưới là 20px để gần ảnh */
-    border: 0px solid #ddd; /* Thêm border để thấy rõ khung */
+    margin: 60px auto 20px auto; 
+    border: 0px solid #ddd; 
     border-radius: 18px;
-    text-align: justify; /* Căn đều chữ */
-    font-size: 18px; /* Cỡ chữ hợp lý */
-    background-color: #f9f9f9; /* Màu nền nhạt */
+    text-align: justify; 
+    font-size: 18px; 
+    background-color: #f9f9f9; 
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 .sothich {
-    width: 800px; /* Chiều rộng cố định */
-    height: auto; /* 💡 ĐIỀU CHỈNH: Chiều cao tự động ôm nội dung, tạo hình chữ nhật */
+    width: 800px; 
+    height: auto; 
     max-width: 95%; 
     padding: 30px;
-    margin: 60px auto 20px auto; /* Margin dưới là 20px để gần ảnh */
-    border: 2px solid #dd1111; /* Thêm border để thấy rõ khung */
+    margin: 60px auto 20px auto; 
+    border: 2px solid #dd1111; 
     border-radius: 18px;
-    text-align: justify; /* Căn đều chữ */
-    font-size: 18px; /* Cỡ chữ hợp lý */
-    background-color: #f9f9f9; /* Màu nền nhạt */
+    text-align: justify; 
+    font-size: 18px; 
+    background-color: #f9f9f9; 
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
-/* --- */
 
-/* MAIN IMG — Rộng đúng bằng .detail và nằm ngay dưới */
+
+
 .mainimg {
-    width: 800px; /* Bằng chiều rộng của .detail */
+    width: 800px; 
     max-width: 95%;
-    margin: 20px auto 40px auto; /* Margin trên là 20px để tạo khoảng cách với khối chữ */
+    margin: 20px auto 40px auto; 
     display: flex;
     justify-content: center;
 }
 
-/* Ảnh tự căn giữa và không méo */
+
 .mainimg img {
     width: 100%; 
     height: auto;
